@@ -9,11 +9,12 @@
 ## Edit config and start nginx
 * mv ../build ./objs
 * vi ./objs/build/conf/nginx.conf
-    listen       8080;
 
-	location /test {
-		xxxx "I am Bepartofyou, an av streaming engineer!\n";
-	}
+		listen       8080;
+
+		location /test {
+			xxxx "I am Bepartofyou, an av streaming engineer!\n";
+		}
 * cd ./objs && ./nginx -p ./build -c conf/nginx.conf
 
 ## Test
