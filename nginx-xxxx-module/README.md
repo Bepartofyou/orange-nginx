@@ -3,7 +3,7 @@
 ## Build
 * git clone https://github.com/nginx/nginx.git
 * git clone https://github.com/Bepartofyou/orange-nginx.git
-* mkdir build && cd nginx && ./auto/configure --prefix=../build --with-debug --add-module=../orange-nginx/nginx-ts-module 
+* mkdir build && cd nginx && ./auto/configure --prefix=../build --with-debug --add-module=../orange-nginx/nginx-xxxx-module 
 * make && make install
 
 ## Edit config and start nginx
